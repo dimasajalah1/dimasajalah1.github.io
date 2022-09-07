@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dimas Ardiansyah</title>
+<style>
+body{
+    background-image: url('orsrc14401.jpg');
+}
+ h3{
+    background-image: linear-gradient(to right, black, green ) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0.2rem solid purple;
+ }
+ .wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+</style>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="child">
+    <img src="Foto.jpg" alt="me">
+    <h3>Dimas Ardiansyah - 32211463</h3>
+    <button onclick="hellodunia()">Tabel Sederhana</button>
+    <button onclick="istilahkata()">Tabel Css</button>
+    <button onclick="hoohtenan()">Tabel JQuery</button>
+
+
+    </div>
+</div>
+<script>
+   function hellodunia() {
+     const lanjut = confirm("Beralih Ke halaman selanjutnya?")
+     if (lanjut) {
+       return document.location.href = "Hal_Table.html"
+     }
+     alert("Membatalkan pemindahan halaman")
+   }
+</script>
+<script>
+   function istilahkata() {
+     const yalanjut = confirm("Beralih Ke halaman selanjutnya?")
+     if (yalanjut) {
+       return document.location.href = "Table.html"
+     }
+     alert("Membatalkan pemindahan halaman")
+   }
+ </script>
+ <script>
+  function hoohtenan() {
+    const gasken = confirm("Beralih Ke halaman selanjutnya?")
+    if (gasken) {
+      return document.location.href = "Tablejquery.html"
+    }
+    alert("Membatalkan pemindahan halaman")
+  }
+</script>
+</body>
+</html>
