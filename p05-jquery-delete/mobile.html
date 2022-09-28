@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form BEM</title>
+	<link rel="stylesheet" type="text/css" href="dimas_pnya.css">
+</head>
+<body>
+<form>
+	<header>
+		<img src="foto.png">
+</header>
+<h3> Formulir Pendaftaran BEM 2022/2023 </h3>
+	<table>
+		<tr>
+			<td>Nama Lengkap:</td>
+			<td><input type="text" name="nama" placeholder="Nama Lengkap"></td>
+		</tr>
+		<tr>
+			<td>Nomor Induk Mahasiswa:</td>
+			<td><input type="text" name="Nim" placeholder="NIM"></td>
+		</tr>
+		<tr>
+			<td>Program Studi:</td>
+			<td><select name="Prodi">
+                <option value="Ti">Teknik Informatika (S1)</option>
+                <option value="Si">Sistem Informatika (S1)</option>
+                <option value="Mi">Manajemen Informatika (D3)</option>
+                <option value="Rpl">Rekayasa Perangkat Lunak (D3)</option>
+                <option value="Ka">Komputerisasi Akuntansi (D3)</option>
+            </select></td>
+		</tr>
+		<tr>
+			<td>Email:</td>
+			<td><input type="email" name="email" placeholder="Email"></td>
+		</tr>
+		<tr>
+			<td>No Hp:</td>
+			<td><input type="number" name="no_hp" placeholder="No Hp"></td>
+		</tr>
+		<tr>
+			<td>Jenis kelamin:</td>
+			<td><input type="radio" name="jenis_kelamin" value="laki laki" class="radio">laki-laki
+				<br><input type="radio" name="jenis_kelamin" value="perempuan" class="radio">perempuan</td>
+		</tr>
+		<tr>
+			<td>Agama:</td>
+            <td><select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select></td>
+		</tr>
+		<tr>
+			<td>Biografi:</td>
+			<td><input type="biografi" name="Biografi" placeholder="Biografi"></textarea></td>
+		</tr>
+	</table>
+		<div class="menu-4">
+            <tr>
+        <td>Cirebon, <input type="date" name="tanggal_form" placeholder="tanggal formulir dibuat"></td>
+        </tr>
+        <p>ttd</p>
+		<br><input type="text" name="nama_lengkap" placeholder="nama lengkap">
+	</div>
+<div class="menu-5">
+    <button type="button" class="btn-kembali"onclick="document.location.href = 'index.html'">Kembali</button>
+	<button type="button" class="btn-kirim"onclick="document.location.href = 'kirim.html'">Kirim</button>
+</div>
+</form>
+</body>
+</html>
