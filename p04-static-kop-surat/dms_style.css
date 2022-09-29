@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'fantasy';
+    background-color: aqua;
+}
+
+
+.lingkup-kop-surat{
+    width: 100%;
+    border: 1px solid #ccc;
+    max-width: 21cm;
+    max-height: 29cm;
+    margin: auto;
+    padding: 1cm 1cm 1cm 1cm;
+    background-color: white
+}
+
+.spanduk-kop-surat{
+    width: 20cm;
+    height: 3.5cm;
+    display: grid;
+    grid-template-columns: 11cm 8cm;
+}
+
+.lingkup-logo{
+    background-color: rgb(205, 236, 223);
+    height: 2.7cm;
+}
+
+.ikmi-logo{
+    width: 2cm;
+    margin-top: 5px;
+}
+
+.spanduk-logo{
+    text-align: center;
+}
+
+.logo-ngiwe{
+    display: grid;
+    grid-template-columns: 2cm auto;
+}
+
+.judul-kop{
+    width: 19cm;
+    height: 24cm;
+}
+
+
+.nama{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.lingkup-alamat{
+    background-image: url('bgrnd.jpg');
+    background-size: 300px;
+    font-family: Arial;
+    height: 2.7cm;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.sampul-sk{
+    height: 0.6cm;
+    padding-top: 1.5px;
+}
+
+.style-sk{
+    background-color: red;
+}
+
+.style-akreditasi{
+    background-color: green;
+}
+
+.style-sk, .style-akreditasi{
+    text-align: center;
+    color: white;
+}
+
+.nama-kampus{
+    font-size: 11px;
+    letter-spacing: .2px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 7px;
+    padding-top: 5px;
+}
+
+.style-stmik{
+    font-size: 55px;
+    font-weight: bold;
+    color: red;
+    margin-top: -10px;
+    letter-spacing: 5px;
+    padding-left: 10px;
+}
+
+.style-ikmi{
+    color: blue;
+    font-size: 32px;
+    letter-spacing: 10px;
+    margin-top: -2.5px;
+}
+.style-cirebon{
+    color: green;
+    letter-spacing: 5.5px;
+    font-size: 16px;
+    margin-top: -7px;
+}
+.okedeh{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.style-ikmi, .style-cirebon{
+    padding-left: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.spanduk-stmik-ikmi{
+    display: grid;
+    grid-template-columns: 5.5cm auto;
+    display: pinkz;
+    margin-top: 8px;
+}
+
+.judul-kop-1{
+    text-align: center;
+    margin: 15px 0 0 0;
+    font-size: 16pt;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.nomor-kop{
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 5px;
+}
