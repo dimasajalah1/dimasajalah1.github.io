@@ -1,0 +1,53 @@
+header{
+   width: auto;
+   height: 150px;
+   border-bottom: 10px solid black;
+}
+img{
+   width: 50%;
+}
+body{
+   background: rgb(159, 159, 248);
+}
+legend{
+   font-weight: bold;
+   font-size: 22px;
+}
+.menu-5{
+   margin-top: 160px;
+   margin-bottom: 10px;
+}
+.btn-daftar{
+   background-color: blue;
+   border-radius: 10px;
+   color: white;
+   cursor: pointer;
+   height: 30px;
+   width: 100px;
+}
+.btn-daftar:hover{
+   background-color: darkblue;
+}
+.btn-kembali{
+   background-color: blue;
+   border-radius: 10px;
+   color: white;
+   cursor: pointer;
+   height: 50px;
+   width: 200px;
+}
+.btn-kembali:hover{
+   background-color: darkblue;
+}
+.btn-kirim{
+   background-color: blue;
+   border-radius: 10px;
+   color: white;
+   cursor: pointer;
+   height: 50px;
+   width: 200px;
+}
+
+.btn-kirim:hover{
+   background-color: darkblue;
+}

@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: 100%;
+    width: 100%;
+}
+
+.lingkup {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Trirong", sans-serif;
+    color: rgb(255, 41, 41);
+    text-shadow: -2px -3px 8px rgba(0,0,0,0.6);
+}
+
+h1:hover {
+    cursor: pointer;
+    transition: .2s;
+    letter-spacing: 5px;
+}
+
+.Aturan {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Trirong", sans-serif;
+    color: rgb(255, 41, 41);
+    text-shadow: -2px -3px 8px rgba(0,0,0,0.6);
+}
+
+.Aturan:hover {
+    cursor: pointer;
+    letter-spacing: 5px;
+    transition: .2s;
+}
+
+ol li {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-shadow: -2px -3px 8px rgba(0,0,0,0.6);
+}
+
+ol li:hover {
+    cursor: pointer;
+    letter-spacing: 3px;
+    transition: .2s;
+}
+
+.lingkup2 {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 41, 41);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: "Trirong", sans-serif;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+}
+
+.judul {
+    font-size: 27px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(0, 255, 21);
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(41, 38, 38);
+}
+
+.isi {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.inputkeun, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type=radio] {
+    margin: 20px;
+}
+
+input[type=file] {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+    color: gray;
+}
+
+button {
+    width: 100%;
+    background-color:rgb(0, 255, 21);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(2, 100, 10);
+    transition: .2s;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        box-sizing: border-box;
+    }
+
+    .header img{
+      width: 100%;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+
+    .petunjuk {
+        font-size: 10px;
+    }
+
+    ol li {
+        font-size: 9px;
+    }
+
+    .lingkup2 {
+        padding: 15px;
+    }
+
+    .judul {
+        font-size: 15px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .isi {
+        font-size: 9px;
+    }
+
+    .inputkeun, select {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    input[type=file] {
+        font-size: 10px;
+    }
+
+    button {
+        padding: 8px 10px;
+        margin: 8px 0;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    
+}
