@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('background.jpg');
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bungkus-posisi{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.posisi .bungkus-posisi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.posisi{
+    color: antiquewhite;
+    position: fixed;
+    font-family: 'Arial', sans-serif;
+    background-color: aquamarine;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    box-shadow:2px 2px 12px black;
+    z-index: 99;
+}
+
+.posisi ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.posisi a{
+    color: rgb(109, 7, 109);
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.posisi b{
+    color: green;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.posisi a:hover{
+    color: black;
+}
+
+.posisi b:hover{
+    color: black;
+}
+
+.posisi .on{
+    font-weight: bold;
+}
+
+.icon{
+    color: aqua;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.sub{
+    background-color: aqua;
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px blue;
+    margin-left: 10px;
+    text-align: justify;
+}
+.no-on{
+    color: aqua;
+}
+
+.sentral{
+    font-family: "Arial";
+    text-align: center;
+}
